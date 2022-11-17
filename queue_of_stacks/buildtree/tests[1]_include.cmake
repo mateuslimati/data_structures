@@ -1,0 +1,5 @@
+if(EXISTS "/home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree/tests[1]_tests.cmake")
+  include("/home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()

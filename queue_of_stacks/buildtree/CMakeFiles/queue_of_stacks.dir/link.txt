@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -O0 --coverage -fprofile-arcs -ftest-coverage CMakeFiles/queue_of_stacks.dir/src/main.cpp.o -o queue_of_stacks  -lgcov 

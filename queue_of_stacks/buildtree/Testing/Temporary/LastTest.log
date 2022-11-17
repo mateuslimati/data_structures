@@ -1,0 +1,55 @@
+Start testing: Nov 17 16:55 -03
+----------------------------------------------------------
+1/2 Testing: QueueOfStacks.SimpleEnqueue
+1/2 Test: QueueOfStacks.SimpleEnqueue
+Command: "/home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree/tests" "--gtest_filter=QueueOfStacks.SimpleEnqueue" "--gtest_also_run_disabled_tests"
+Directory: /home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree
+"QueueOfStacks.SimpleEnqueue" start time: Nov 17 16:55 -03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = QueueOfStacks.SimpleEnqueue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueOfStacks
+[ RUN      ] QueueOfStacks.SimpleEnqueue
+[       OK ] QueueOfStacks.SimpleEnqueue (0 ms)
+[----------] 1 test from QueueOfStacks (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueOfStacks.SimpleEnqueue" end time: Nov 17 16:55 -03
+"QueueOfStacks.SimpleEnqueue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: QueueOfStacks.SimpleDequeue
+2/2 Test: QueueOfStacks.SimpleDequeue
+Command: "/home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree/tests" "--gtest_filter=QueueOfStacks.SimpleDequeue" "--gtest_also_run_disabled_tests"
+Directory: /home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree
+"QueueOfStacks.SimpleDequeue" start time: Nov 17 16:55 -03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = QueueOfStacks.SimpleDequeue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueOfStacks
+[ RUN      ] QueueOfStacks.SimpleDequeue
+[       OK ] QueueOfStacks.SimpleDequeue (0 ms)
+[----------] 1 test from QueueOfStacks (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueOfStacks.SimpleDequeue" end time: Nov 17 16:55 -03
+"QueueOfStacks.SimpleDequeue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 17 16:55 -03

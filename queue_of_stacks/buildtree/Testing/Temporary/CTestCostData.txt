@@ -1,0 +1,3 @@
+QueueOfStacks.SimpleEnqueue 1 0.00317322
+QueueOfStacks.SimpleDequeue 1 0.00316364
+---
