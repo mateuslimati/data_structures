@@ -11,69 +11,27 @@
 
 #include <memory>
 #include <iostream>
-
-import queue;
-
-class student
-{
-private:
-    int id;
-
-public:
-    student(const int id = 0);
-    ~student();
-
-    constexpr int get_id();
-};
-
-student::student(const int id) : id(id)
-{
-}
-
-student::~student()
-{
-}
-
-constexpr int student::get_id()
-{
-    return this->id;
-}
+#include <queue.hpp>
 
 int main(int argc, char const *argv[])
 {
     try
     {
-        auto stk = std::make_unique<dslib::queue::Queue<student>>();
+        auto stk = std::make_unique<dslib::queue::Queue<int>>(10);
         for (int i = 0; i < 10; i++)
         {
-            student st(i);
-            stk->enqueue(st);
-            std::cout << "Student " << st.get_id() << " inserted." << std::endl;
+            stk->enqueue(i);
         }
-        std::cout << "======================" << std::endl;
-        for (int i = 0; i < 4; i++)
+        std::cout << "Queue size()=" << stk->size() << std::endl;
+        for (int i = 0; i < 10; i++)
         {
-            student st = stk->dequeue();
-            std::cout << "Student " << st.get_id() << " removed." << std::endl;
+            std::cout << "value " << stk->dequeue() << std::endl;
         }
-        std::cout << "======================" << std::endl;
-        for (int i = 2; i > 0; i--)
-        {
-            student st(i);
-            stk->enqueue(st);
-            std::cout << "Student " << st.get_id() << " inserted." << std::endl;
-        }
-        std::cout << "======================" << std::endl;
-        for (int i = 0; i < 8; i++)
-        {
-            student st = stk->dequeue();
-            std::cout << "Student " << st.get_id() << " removed." << std::endl;
-        }
+        std::cout << "Queue size()=" << stk->size() << std::endl;
         return 0;
     }
     catch (const std::exception &e)
     {
         std::cerr << e.what() << '\n';
-        return 1;
     }
 }

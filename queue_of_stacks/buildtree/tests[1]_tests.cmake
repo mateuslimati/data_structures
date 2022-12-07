@@ -1,5 +1,0 @@
-add_test([=[QueueOfStacks.SimpleEnqueue]=]  /home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree/tests [==[--gtest_filter=QueueOfStacks.SimpleEnqueue]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[QueueOfStacks.SimpleEnqueue]=]  PROPERTIES WORKING_DIRECTORY /home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[QueueOfStacks.SimpleDequeue]=]  /home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree/tests [==[--gtest_filter=QueueOfStacks.SimpleDequeue]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[QueueOfStacks.SimpleDequeue]=]  PROPERTIES WORKING_DIRECTORY /home/pdi-5391/Documentos/data-structures/queue_of_stacks/buildtree SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  tests_TESTS QueueOfStacks.SimpleEnqueue QueueOfStacks.SimpleDequeue)
